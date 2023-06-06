@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swa');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: auto;
+}
+
+#home{
+    height: 200%;
+}
+
+nav {
+    background-color: #98c5e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+section {
+    text-decoration: none;
+    color: #fffffd;
+    font-size: 2.5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #001838;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #98c5e9;
+    text-align: center;
+    color: azure;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto auto;
+    padding: 30px 5px;
+    position: absolute;
+ }
+
+.footerajust {
+    background-color: #98c5e9;
+    text-align: center;
+    color: azure;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5px;
+    position: relative;
+}
+
+.patrocinios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.barra {
+    width: 2px;
+    height: 60px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.logo-puma {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.logo-etihad {
+    width: 100px;
+}
+
+.login {
+    background-color: #001838;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.login input {
+    padding: 20px;
+    border: none;
+    outline: none; 
+    font-size: 20px;
+    border: 2px solid #6cade0;
+    border-radius: 3px;
+}
+
+.login button {
+    background-color: #98c5e9;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px ;
+    color: white
+}
+
+.alogin {
+    color: white;
+}
+
+.registro {
+    background-color: #001838;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.registro input {
+    padding: 8px;
+    border: none;
+    outline: none; 
+    font-size: 20px;
+    border: 2px solid #6cade0;
+    border-radius: 3px;
+}
+
+.registro button {
+    background-color: #98c5e9;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px ;
+    color: white
+}
+
+.box {
+    width: calc(100% - 200px);
+    background-color: #6cade0;
+    padding: 30px;
+    margin: 40px auto;
+    height: 700px;
+    
+}
+
+#bodysobre {
+    height: 210vh;
+    background-image: url(https://www.thesun.co.uk/wp-content/uploads/2022/08/NINTCHDBPICT000745107018.jpg?strip=all&quality=100&w=1920&h=1080&crop=1);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajustar a imagem para cobrir todo o fundo */
+    background-position: center center; /* Centralizar a imagem horizontal e verticalmente */
+    flex-direction: column;
+    color: #fdfafa;
+}
+
+.box2 {
+    width: calc(100% - 1150px);
+    background-color: #072347;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    padding: 30px;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Titulosobre{
+    color:rgb(255, 238, 5);">
+}
+
+.box3{
+    background-color: #072347;
+    padding: 0px;
+    margin: 50px auto;
+    background-size: cover;
+    height: 600px;
+    border: 2px solid #f8f3f3;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imagens img {
+    width: 30%;
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 50px;
+}
+
+#imagem3 {
+    width: 15%;
+}
+
+#bodycontato {
+    height: 150vh;
+    background-image: url(https://www.thesun.co.uk/wp-content/uploads/2022/08/NINTCHDBPICT000745107018.jpg?strip=all&quality=100&w=1920&h=1080&crop=1);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajustar a imagem para cobrir todo o fundo */
+    background-position: center center; /* Centralizar a imagem horizontal e verticalmente */
+    flex-direction: column;
+    color: #fdfafa;
+    
+}
+
+.formcontato {
+    background-color: #001838;
+    position: inherit;
+    padding: 55px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.formcontato input {
+    padding: 20px;
+    border: none;
+    outline: none; 
+    font-size: 20px;
+    border: 2px solid #6cade0;
+    border-radius: 3px;
+}
+
+.formcontato button{
+    background-color: #98c5e9;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px ;
+    color: white
+}
+
+#footercontato {
+    background-color: #98c5e9;
+    text-align: center;
+    color: azure;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5px;
+    position: relative;
+}
+
+#datansc {
+    width: 292px;
+    height: 70px;
+    color: rgb(136, 131, 131);
+    
+}
+
+#termos {
+    font-size: 12px;
+}
+
+#visitartexto {
+    text-align: center;
+}
+
+.box4 {
+    margin: 1;
+    background-color: #072347;
+    padding: 0px;
+    height: 300;
+    width: 100;
+    height: 300px;
+    border: 2px solid #f8f3f3;
+}
+
+#map{
+    width: 360px;
+    height: 182px;
+    display: block;
+    margin: 0 auto;
+    border: solid 2px;
+    color: #6cade0;
+}
+
+.content{
+    margin-top: 10px;
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-image: url("../imagens/fa-cup-winners-22-23-web-desktop-header.jpg");
+    width: 100%;
+    height: 378px;
+    margin-bottom: 5px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
